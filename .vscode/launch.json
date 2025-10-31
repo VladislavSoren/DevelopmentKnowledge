@@ -1,0 +1,59 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        // {
+        //     "name": "Debug Pytest",
+        //     "type": "python",
+        //     "request": "launch",
+        //     "program": "${workspaceFolder}/.venv/bin/pytest",
+        //     "args": [
+        //         "-v",
+        //         "-s",
+        //         "${fileDirname}"
+        //     ],
+        //     "console": "integratedTerminal",
+        //     "justMyCode": false,
+        //     "env": {
+        //         "PYTHONPATH": "${workspaceFolder}"
+        //     }
+        // },
+        // {
+        //     "name": "Debug Current Test File",
+        //     "type": "python",
+        //     "request": "launch",
+        //     "module": "pytest",
+        //     "args": [
+        //         "-v",
+        //         "-s",
+        //         "${file}"
+        //     ],
+        //     "console": "integratedTerminal",
+        //     "justMyCode": false
+        // },
+        // {
+        //     "name": "Debug Specific Test",
+        //     "type": "python",
+        //     "request": "launch",
+        //     "module": "pytest",
+        //     "args": [
+        //         "-v",
+        //         "-s",
+        //         "${file}::${selectedText}"
+        //     ],
+        //     "console": "integratedTerminal",
+        //     "justMyCode": false
+        // },
+        {
+            "name": "Debug All Tests",
+            "type": "python",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "-v",
+                "-s"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ]
+}
