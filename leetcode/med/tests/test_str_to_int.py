@@ -3,7 +3,6 @@ import pytest
 
 class TestSolution:
     @pytest.mark.parametrize("s, expected", [
-        # Основные случаи
         ("-042", -42),
         (" -042", -42),
         ("1337c0d3", 1337),
