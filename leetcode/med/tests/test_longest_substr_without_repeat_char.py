@@ -1,4 +1,4 @@
-from leetcode.easy.tasks.longest_substr_without_repeat_char import Solution
+from leetcode.med.tasks.longest_substr_without_repeat_char import Solution
 import pytest
 
 class TestSolution:
